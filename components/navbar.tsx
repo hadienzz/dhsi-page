@@ -9,11 +9,11 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 z-50 bg-background border-b border-border">
+    <nav className="sticky top-0 z-50 w-full border-b border-border bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center gap-2">
+          <div className="flex items-center justify-between gap-2">
             <Image
               src={"/dc.svg"}
               alt="Dewan Hukum Siber Indonesia Logo"
@@ -65,7 +65,7 @@ export default function Navbar() {
 
         {/* Mobile Menu */}
         {isOpen && (
-          <div className="md:hidden pb-4 space-y-4">
+          <div className="md:hidden pb-4 space-y-4 mt-4">
             <a
               href="#courses"
               className="block text-foreground hover:text-primary"
@@ -84,7 +84,7 @@ export default function Navbar() {
             >
               Mitra
             </a>
-            <div className="flex gap-4 pt-4">
+            <div className="grid grid-cols-2 gap-4 pt-4">
               <Button variant="outline" className="w-full bg-transparent">
                 Unduh Profil
               </Button>

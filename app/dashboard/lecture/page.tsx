@@ -24,7 +24,7 @@ export default function LectureOverviewPage() {
               Buat, perbarui, dan kelola course lecture terkait hukum siber.
             </CardDescription>
           </CardHeader>
-          <CardContent className="flex justify-between items-center">
+          <CardContent className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
             <div className="text-sm text-muted-foreground">
               Atur struktur materi, level, dan durasi course.
             </div>
@@ -50,7 +50,7 @@ export default function LectureOverviewPage() {
               Buat dan terbitkan berita terbaru kegiatan dan kebijakan Dewan.
             </CardDescription>
           </CardHeader>
-          <CardContent className="flex justify-between items-center">
+          <CardContent className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
             <div className="text-sm text-muted-foreground">
               Kelola artikel, tanggal publikasi, dan link dokumen.
             </div>

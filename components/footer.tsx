@@ -9,8 +9,8 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold">HS</span>
+              <div className="w-9 h-9 rounded-full overflow-hidden bg-primary flex items-center justify-center">
+                <span className="text-primary-foreground font-bold">DC</span>
               </div>
               <span className="font-bold text-lg text-foreground">Dewan Hukum Siber Indonesia</span>
             </div>

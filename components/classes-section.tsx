@@ -12,7 +12,7 @@ const courses = [
     students: 320,
     rating: 4.9,
     duration: "2 hari lokakarya",
-    image: "/program-regulasi-siber.jpg",
+    image: "/cloud-devops-course.jpg",
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const courses = [
     students: 210,
     rating: 4.8,
     duration: "3 hari pelatihan intensif",
-    image: "/program-forensik-digital.jpg",
+    image: "/nodejs-backend-course.jpg",
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ const courses = [
     students: 145,
     rating: 4.8,
     duration: "2 hari simulasi tabletop",
-    image: "/program-manajemen-insiden.jpg",
+    image: "/react-nextjs-course.jpg",
   },
   {
     id: 4,
@@ -42,7 +42,7 @@ const courses = [
     students: 380,
     rating: 4.9,
     duration: "2 hari diskusi panel",
-    image: "/program-hak-digital.jpg",
+    image: "/python-data-science-course.jpg",
   },
   {
     id: 5,
@@ -52,7 +52,7 @@ const courses = [
     students: 260,
     rating: 4.7,
     duration: "2 hari workshop",
-    image: "/program-kepatuhan-keamanan.jpg",
+    image: "/web-development-course.jpg",
   },
   {
     id: 6,
@@ -62,7 +62,7 @@ const courses = [
     students: 190,
     rating: 4.8,
     duration: "2 hari praktik intensif",
-    image: "/program-sengketa-siber.jpg",
+    image: "/tech-learning-illustration.jpg",
   },
 ]
 

@@ -25,7 +25,7 @@ export default function Hero() {
                 Unduh Profil Dewan
               </Button>
             </div>
-            <div className="flex gap-8 text-sm">
+            <div className="flex text-center gap-8 text-sm">
               <div>
                 <div className="font-bold text-2xl text-primary">120+</div>
                 <div className="text-muted-foreground">Pakar & Praktisi</div>
@@ -43,17 +43,18 @@ export default function Hero() {
             </div>
           </div>
 
+          <div className="relative h-80 bg-gray-200 w-80 mx-auto md:w-100 md:h-100 rounded-md" />
+
           {/* Right Image */}
-          {/* <div className="hidden md:block relative h-128">
+          {/* <div className="relative h-64 sm:h-80 md:h-[420px] w-full">
             <Image
               src="/sahromen.jpg"
-              alt="Ilustrasi dewan hukum siber"
+              alt="Ilustrasi Dewan Hukum Siber Indonesia"
               fill
-              className="object-contain"
+              priority
+              className="object-cover rounded-2xl shadow-xl"
             />
           </div> */}
-
-          <div className="h-102 w-102  bg-gray-400"></div>
         </div>
       </div>
     </section>
